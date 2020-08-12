@@ -1,2 +1,2 @@
 # francesca-litterio-portfolio
-A portfolio of my work
+Here is a website to showcase my skills as a software developer, and person!
