@@ -1,0 +1,160 @@
+html{ /* Default settings for whole page */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: rgb(228, 228, 228);
+  width: 100%;
+ 
+}
+
+/* navigation appearance */
+.btn{ /*spaces out navigation menu items*/
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+
+}
+
+a:link{color: #00241B;} /*links*/
+a:visited{color:rgb(2, 126, 95);}
+a:hover{color: rgb(3, 8, 7);}
+a:active{color:lavenderblush;}
+
+/* main section of the page */
+
+header, footer{ 
+  background-color: rgb(227, 253, 243);
+  width:750;
+}
+
+main{
+background-color: rgb(228, 228, 228);
+}
+
+article{
+  margin: 2% 10%;
+  padding: 10px;
+}
+
+h1{
+  font-size: 50px;
+  color:#00241B;
+}
+
+h2{
+  font-size: 35px;
+  color:#00241B;
+  text-align: left;
+}
+
+h3{
+  font-size: 30px;
+   text-transform: uppercase;
+   color:rgb(71, 102, 94);
+}
+
+p{
+  font-size: 20px;
+}
+
+img{
+  width: 100%;
+}
+
+li{
+ width: 100%;
+  text-align: left;
+  font-size: 20px;
+}
+
+footer{
+  padding-top: 5px;
+}
+
+.color{ /*backgound color of about section*/
+background-color:rgb(227, 253, 243);
+}
+
+.padding{
+  background-color: rgb(231, 241, 234);
+  margin: 3px;
+}
+
+
+hr{
+  background-color:#00241B;
+  border-color:#00241B;
+  width: 100%;
+  height: 1px;
+}
+
+/* Groups & Items  (Mobile First) */
+.group{ /* flex box styling*/
+display: flex;
+flex-direction: column;
+
+}
+
+.item{
+  flex: 1;
+  margin: 20px;
+}
+
+.item-double{
+  flex: 2;
+  margin: 20px;
+}
+
+/*form */
+form{
+  width: 100%;
+  background-color:rgb(227, 253, 243);
+  padding: 20px;
+}
+form textarea{
+  width: 100%;
+  height: 150px;
+}
+
+form label{
+  display: block;
+  padding: 10px 0;
+  text-align: left;
+  width: 100%;
+}
+
+form input{
+  width: 100%;
+}
+
+.space{ /*adds space between parts of contact section*/
+padding: 0 15px;
+}
+
+#size{
+  height: 250px !important;
+  width: auto;
+}
+/* Groups & Items  (Desktop) */
+
+
+
+@media all and (min-width: 800px) {
+  
+  ul li{
+    font-size: 30px;
+    padding: 15px;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+
+  .space{
+    padding: 0 30px;
+  }
+}
