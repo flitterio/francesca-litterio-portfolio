@@ -134,7 +134,14 @@ form input{
 .space{ /*adds space between parts of contact section*/
 padding: 0 15px;
 }
+
+#size{
+  height: 250px !important;
+  width: auto;
+}
 /* Groups & Items  (Desktop) */
+
+
 
 @media all and (min-width: 800px) {
   
