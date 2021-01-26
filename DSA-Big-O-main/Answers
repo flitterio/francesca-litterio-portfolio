@@ -1,0 +1,31 @@
+1. What is Big O?
+1) Constant Time
+2) Linear time
+
+2.Even or Odd
+Constant time- regardless of value, there is only one division opperation performed on that value
+
+3.Are you here?
+polynomial time -- there are nested "for" loops
+
+4. Doubler
+Linear-- The time will increase proportionally based on how many items are in the array
+
+5. Naive search
+logarithmic? Since it is just going through the array until it finds the item that matches, it would take slightly longer depending on the length of that array
+
+6. Creating pairs
+polynomial time because there are nested for loops
+
+7.compute the sequence
+creates a sequence. I guess logarithmic because the algorithm does not require a lot to continue adding to the sequence
+
+8. an efficient search
+logarithmic because it cuts the problem size in half!
+
+9.random element
+constant time, no matter what size the array is, the time will not change
+
+10. what am I?
+the algorithm takes a number and checks first if it is a whole number greater than 2, then it loops to checks what the number is divisible by
+Linear? run time is directly proportional to size of array
