@@ -22,12 +22,10 @@ class LinkedList {
             let tempNode = this.head;
             while(tempNode.next !== null){
                 tempNode = tempNode.next;
-            }
-            tempNode = tempNode.next;
         }
         tempNode.next = new _Node(item, null);
+        }
     }
-
     find(item) {
         let currNode = this.head;
 
@@ -75,18 +73,18 @@ class LinkedList {
 }
 
 
-function main(list) {
-    list = new LinkedList();
-    list.insertFirst('Apollo');
-    list.insertFirst('Boomer');
-    list.insertFirst('Helo');
-    list.insertFirst('Husker');
-    list.insertFirst('Starbuck');
+function main() { 
+    const SLL = new LinkedList()
+     SLL.insertFirst('Apollo') 
+     SLL.insertLast('Boomer') 
+     SLL.insertLast('Helo') 
+     SLL.insertLast('Husker') 
+     SLL.insertLast('Starbuck') 
+     SLL.insertLast('Tauhida') 
+     SLL.find('Husker') 
+     SLL.remove('Husker')
 
-    console.log(list);
-    console.log(list.head);
+     console.log(SLL);
 }
 
-SLL = '';
-
-main(SLL);
+main();
