@@ -1,0 +1,1 @@
+//when item1 < item 2, change pointer so that next > previous

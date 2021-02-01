@@ -1,0 +1,1 @@
+//write function to find where next == null, if next = head, return true-- is cycle

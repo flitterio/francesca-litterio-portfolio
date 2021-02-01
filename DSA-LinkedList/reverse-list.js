@@ -1,0 +1,1 @@
+//need pointer to point to previous instead of next... next = previous

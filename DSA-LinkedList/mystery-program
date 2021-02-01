@@ -1,0 +1,3 @@
+I believe this mystery program inserts an item into the middle of two existing nodes and shifts the rest of the nodes over as a result
+
+The complexity of this would be O(n) becase although it looks like there are two loops, the first while statement is O(1)
