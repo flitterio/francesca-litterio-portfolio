@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="images/fran-photo.jpg">
     <title>Francesca Litterio</title>
     <link
   href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -36,12 +37,12 @@
       <h2> Introduction</h2>
       <div class = "group">
         <div class ="item">
-        <img src="images/fran-photo.jpg" alt="A photo of me, Francesca Litterio">
+        <img src="images/fran-photo.jpg" alt="A photo of me, Francesca Litterio" id="headshot">
         </div>
       <div class="item">
       <p> My name is Francesca Litterio and I am an up and coming software developer and musical theatre performer! </p>
      <p> I am currently based out of Brooklyn, NY </p>
-     <p> My unique background in theatre has made me a wonderful communicator and problemsolver able to think quickly on my feet. </p>
+     <p> I use skills from my unique background in theatre to collaborate and communicate effectively with others, think quickly on my feet and problem solve. Having just graduated from Thinkful's self-paced Software Engineer program, I am ready and eager to enter the professional world of web development! </p>
      <p> Take a look around my page and feel free to <a href="#contact" >contact </a> me with any serious inquiries </p>
       </div>
       </div>
@@ -51,7 +52,7 @@
 
   <article id="about" class = "color"> <!-- about -->
   <h2> About Me </h2>
-<div class = "group padding">
+<div class = "group_padding">
   <div class= "item">
   <p> As of May, 2020, I graduated with a Bachelor of Arts from Wanger College in Theatre Performance and a Minor in Computer Science. With a small background in computers, I enrolled myself to Thinkful's program to gain the marketable skills so that I can pursue a career in both theatre and computers, taking my passion for web development to a new level!</p> <p> I have always enjoyed connecting and collaborating with others. Being in the performing arts, it comes pretty naturally and is something I hope to bring into my web development career as well. Let's collaborate! </p>
   </div>
@@ -73,37 +74,51 @@
 
  <article id="portfolio">
       <h2>Portfolio</h2>
-			<div class='group'>
+			<div class='portfolio_group'>
 
-        <div class='item'>
-          <img src="images/cc-logo.JPG" alt="Closet Catalogue Logo" class="rounded" id="size" >
-          <h3>Closet Catalogue</h3>
-          <p>Online shop with your own closet! Users make a free account and can upload their full closet to browse like an online store. This is my first fully designed and implemented fullstack application</p>
-          <p><a href="https://closet-catalogue.vercel.app/">Live Site</a> |
-            <a href="https://github.com/flitterio/Closet-Catalogue-Client"> GitHub Repository</a> </p>
+        <div class='two_items'>
+          <div class='item'>
+            <img src="images/poop-emoji.png" alt="PNYC" class="rounded" id='size'>
+            <h3>PNYC</h3>
+            <p>Where to go when you've got to go in NYC.</p>
+            <p>PNYC is a full stack web app that I fully created, designed, and developed. Users can look on an interactive map to find the nearest bathrooms. They can also rate/ comment on these bathrooms if they make a free account, and even add some of their own hidden gems.</p>
+            <p> Languages/ Libraries:
+              <i> React, Node Js, CSS
+              <br />
+                Google Maps JavaScript, Places, Geocoding and Service Usage APIs </i></p>
+            <p><a href="https://pnyc-client-flitterio.vercel.app/">Live Site</a> |
+            <a href="https://github.com/flitterio/PNYC-Client"> GitHub Repository</a> </p>
+          </div>
+
+          <div class='item'>
+            <img src="images/cc-logo.JPG" alt="Closet Catalogue Logo" class="rounded" id="size" >
+            <h3>Closet Catalogue</h3>
+            <p>Online shop with your own closet! Users make a free account and can upload their full closet to browse like an online store. This is my first fully designed and implemented fullstack application</p>
+            <p><i>React, Node JS, CSS</i></p>
+            <p><a href="https://closet-catalogue.vercel.app/">Live Site</a> |
+              <a href="https://github.com/flitterio/Closet-Catalogue-Client"> GitHub Repository</a> </p>
+          </div>
         </div>
         
-				<div class='item'>
-          <img src="images/broadway-ss.PNG" alt="Broadway Lyric Quiz Application" class="rounded">
-          <h3>Broadway Lyric Quiz Web App</h3>
-          <p>This is an interactive quiz app that will test your knowledge of Broadway lyrics.</p>
-          <p><a href="https://flitterio.github.io/Broadway-Lyrics-Quiz-App/">Live Site</a> |
-          <a href="https://github.com/flitterio/Broadway-Lyrics-Quiz-App"> GitHub Repository</a> </p>
+        <div class="two_items">
+          <div class='item'>
+            <img src="images/broadway-ss.PNG" alt="Broadway Lyric Quiz Application" class="rounded">
+            <h3>Broadway Lyric Quiz Web App</h3>
+            <p>This is an interactive quiz app that will test your knowledge of Broadway lyrics.</p>
+            <p><i>HTML, CSS, JavaScript</i></p>
+            <p><a href="https://flitterio.github.io/Broadway-Lyrics-Quiz-App/">Live Site</a> |
+            <a href="https://github.com/flitterio/Broadway-Lyrics-Quiz-App"> GitHub Repository</a> </p>
+          </div>
+          
+          <div class='item'>
+            <img src="images/random-ss.PNG" alt="Random Stuff Generator App" class="rounded">
+            <h3>Random Stuff Generator</h3>
+            <p>The Random Stuff Generator is a program that takes user input, and displays a related random image in addition to an unrelated, random piece of advice, and famous quote.</p>
+            <p><i>HTML, CSS, jQuery, JavaScript, as well as 3 APIs</i></p>
+            <p><a href="https://flitterio.github.io/Random-Stuff-Generator/">Live Site</a> |
+            <a href="https://github.com/flitterio/Random-Stuff-Generator"> GitHub Repository</a> </p>
+          </div>
         </div>
-        
-				 <div class='item'>
-          <img src="images/random-ss.PNG" alt="Random Stuff Generator App" class="rounded">
-          <h3>Random Stuff Generator</h3>
-          <p>The Random Stuff Generator is a program that takes user input, and displays a related random image in addition to an unrelated, random piece of advice, and famous quote.</p>
-          <p><a href="https://github.com/flitterio/Random-Stuff-Generator">Live Site</a> |
-          <a href="https://flitterio.github.io/Random-Stuff-Generator/"> GitHub Repository</a> </p>
-				</div>
-
-			<!--<div class='item'>
-          <img src="images/project.jpeg" alt="Team Project Screenshot" class="rounded">
-          <h3>Team Project App</h3>
-					<p>This is a description of the Team Project App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
-				</div> -->
 			</div> 
        <!-- Commented out to use for later when projects are complete -->
       </article>
