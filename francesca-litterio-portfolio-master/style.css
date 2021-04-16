@@ -96,7 +96,6 @@ hr{
 .group{ /* flex box styling*/
 display: flex;
 flex-direction: column;
-
 }
 
 .item{
@@ -150,7 +149,21 @@ padding: 0 15px;
     padding: 15px;
   }
 
-  .group {
+  #headshot{
+    width: 500px;
+    height: auto;
+  }
+
+  .groupA{
+    flex-direction: row;
+  } 
+
+  .group{
+    flex-direction: row;
+  }
+
+  .two_items{
+    display: flex;
     flex-direction: row;
   }
 
