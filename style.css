@@ -134,7 +134,7 @@ form input{
 padding: 0 15px;
 }
 
-#size{
+.size{
   height: 250px !important;
   width: auto;
 }
