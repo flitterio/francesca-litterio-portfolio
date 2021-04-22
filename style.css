@@ -130,17 +130,21 @@ form input{
   width: 100%;
 }
 
-.space{ /*adds space between parts of contact section*/
+ .space{ /*adds space between parts of contact section */
 padding: 0 15px;
-}
+} 
 
 .size{
   height: 250px !important;
   width: auto;
 }
+
+.contact_form{
+  margin-left: -10px  !important;
+}
+
+
 /* Groups & Items  (Desktop) */
-
-
 
 @media all and (min-width: 800px) {
   
